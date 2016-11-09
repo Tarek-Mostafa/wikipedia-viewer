@@ -1,0 +1,92 @@
+body {
+	background-color: #092B40;
+	width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.form-group {
+    position: relative;
+    margin: 15px auto;
+}
+
+.form-control {
+	border: 3px solid #D96F32;
+    border-radius: 0px;
+    background: transparent;
+    color: #eee;
+    height: 45px;
+    font-size: 16px;    
+}
+
+a.random,
+a.random:hover, 
+a.random:focus {
+	color: #fff;
+	text-decoration: none;
+}
+
+input.form-control::-webkit-input-placeholder {
+	color: #eee;
+}
+
+input.form-control:focus,
+input.form-control:active {
+	border-color: #D96F32;
+	box-shadow: none;
+}
+
+.close {
+    color: #d96f32;
+    opacity: 1;
+    text-shadow: none;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.close:focus,
+.close:active,
+.close:hover {
+	color: #d96f32;
+	opacity: 1;
+    outline: none;
+}
+
+.query {
+    background-color: #eee;
+    margin: 10px 0;
+    color: #333;
+    padding: 20px;
+    transition: 0.1s ease-in-out;
+}
+
+.query:hover {
+    border-left: 5px solid #d96f32;
+}
+
+div#title a {
+    font-size: 18px;
+    color: #337ab7;
+}
+
+div#title a:hover,
+div#title a:focus {
+	color: #337ab7;;
+}
+
+span.searchmatch {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+	.form-group {
+		width: 90%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.form-group {
+		width: 400px;
+	}
+}
